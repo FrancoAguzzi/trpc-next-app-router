@@ -3,8 +3,8 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { httpBatchLink } from "@trpc/react-query";
 import { useState } from "react";
-import { superjson } from "../lib/trpc-transformer";
-import { trpc } from "../lib/trpc-initialization";
+import { superjson } from "../../lib/trpc-transformer";
+import { trpc } from "../../lib/trpc-initialization";
 
 const queryClient = new QueryClient({
   defaultOptions: {
